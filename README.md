@@ -4,7 +4,7 @@ This project simulates a **PID controller** applied to a simple dynamic system (
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
   dvfs_project/ 
               ├── controllers/ 
@@ -20,9 +20,6 @@ This project simulates a **PID controller** applied to a simple dynamic system (
               ├── requirements.txt 
               └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -34,19 +31,12 @@ Edit
    ```bash
    python3 -m venv dvfs_project_env
    source dvfs_project_env/bin/activate
-Install the required libraries:
+Install the required libraries: pip install -r requirements.txt
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the simulation:
+Run the simulation: cd simulations
 
-bash
-Copy
-Edit
-cd simulations
 python3 main_simulation.py
+
 View generated plots in the plots/ directory!
 
 📈 Features
@@ -77,22 +67,9 @@ numpy
 matplotlib
 
 👨‍💻 Author
-[Your Name]
+Aswin P
 
-[Your Email or GitHub profile] (optional)
+
 
 📝 License
-[MIT License] (optional if you want to open-source it)
-
-yaml
-Copy
-Edit
-
----
-
-# ✅ Now, steps for you:
-
-1. In your `dvfs_project/`, create:
-
-```bash
-nano README.md
+[MIT License]
